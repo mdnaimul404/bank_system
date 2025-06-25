@@ -7,7 +7,7 @@ A full-featured **Bank Management System** built with PHP, MySQL, HTML, CSS, and
 ## 🚀 Live Demo
 
 You can view the live system here:
-👉 [[http://your-subdomain.epizy.com](http://your-subdomain.epizy.com) *(Replace with your actual link)*](https://naimul.great-site.net/)
+👉 (https://naimul.great-site.net/)
 
 ---
 
