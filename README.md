@@ -8,6 +8,8 @@ A full-featured **Bank Management System** built with PHP, MySQL, HTML, CSS, and
 
 You can view the live system here:
 👉 (https://naimul.great-site.net/)
+Use admin email: admin@gmail.com 
+Password: admin123
 
 ---
 
