@@ -1,57 +1,134 @@
-# 💼 Bank Management System
+# Bank Management System
 
-A secure and user-friendly **Bank Management System** built with **PHP**, **MySQL**, **HTML**, **CSS**, and a dash of JavaScript. This system supports **multi-role authentication** (Admin, Employee, Customer) and essential banking operations like deposits, withdrawals, transfers, and transaction history tracking.
+A full-featured **Bank Management System** built with PHP, MySQL, HTML, CSS, and Bootstrap. This system supports multiple user roles (Admin, Employee, Customer) and provides functionalities such as login authentication, deposit, withdrawal, fund transfers, and transaction history viewing.
 
-## 🌟 Features
+---
 
-### ✅ General
-- Clean and responsive user interface
-- Secure session-based login with role-based access control
-- Modern, gradient-themed UI with hover effects and mobile responsiveness
+## 🚀 Live Demo
 
-### 👤 Admin
-- Admin login
-- Create employee and customer accounts
-- View all users and account data
+You can view the live system here:
+👉 [http://your-subdomain.epizy.com](http://your-subdomain.epizy.com) *(Replace with your actual link)*
 
-### 👨‍💼 Employee
-- Login and dashboard
-- Deposit to customer accounts
-- Withdraw from customer accounts
-- Transfer funds between customer accounts
-- View customer transaction history
+---
 
-### 👨‍👩‍👧 Customer
-- Login and dashboard
-- View account information (account number, balance, status)
-- Toggle to view/hide personal transaction history
-- Logout
+## 🛠 Technologies Used
 
-## 🗂️ Folder Structure
+* **Frontend:** HTML, CSS, Bootstrap
+* **Backend:** PHP (vanilla PHP)
+* **Database:** MySQL
+* **Version Control:** Git & GitHub
 
+---
 
+## 👥 User Roles
 
-## 🛠️ Tech Stack
+### 1. Admin
 
-- **Frontend**: HTML, CSS (custom styling), JavaScript
-- **Backend**: PHP (Core PHP without frameworks)
-- **Database**: MySQL
-- **Authentication**: PHP Sessions and Cookies
+* Login authentication
+* Create employee and customer accounts
+* View all users
 
-## 🔒 Security Features
+### 2. Employee
 
-- Role-based access control (Admin, Employee, Customer)
-- Session validation with fallback to cookies (for customer convenience)
-- SQL prepared statements to prevent SQL injection
-- Minimal exposure of sensitive data
+* Deposit, withdraw, or transfer money between customer accounts
+* View transaction history of any customer
 
-## 🚀 Getting Started
+### 3. Customer
 
-### Prerequisites
+* View account details (balance, account number, status)
+* View personal transaction history (dynamic toggle on click)
 
-- PHP >= 7.x
-- MySQL
-- Apache/Nginx or XAMPP/LAMP for local development
+---
 
+## 🖼 Features
 
+* Multi-role login system
+* Clean and modern UI (responsive and mobile-friendly)
+* Transaction log and balance update
+* Error and success handling with validation
+* Secured session-based authentication
 
+---
+
+## 📂 Folder Structure
+
+```
+├── admin/
+├── customer/
+├── employee/
+├── includes/
+│   └── db.php         # Database connection
+├── login/
+├── logout.php
+├── index.php
+├── assets/            # (Optional) for CSS/JS/Images
+└── README.md
+```
+
+---
+
+## ⚙️ Setup Instructions (Local or Hosting)
+
+### ✅ 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/bank_system.git
+```
+
+### ✅ 2. Import Database
+
+* Import `bank_system.sql` into your MySQL using phpMyAdmin or MySQL CLI.
+
+### ✅ 3. Configure `db.php`
+
+Edit `includes/db.php` with your DB credentials:
+
+```php
+$host = "localhost";
+$username = "root";
+$password = "";
+$database = "bank_system";
+```
+
+### ✅ 4. Run on Localhost
+
+Place the project in your XAMPP `htdocs` folder and navigate to:
+
+```
+http://localhost/bank_system
+```
+
+---
+
+## 🌍 Hosting Instructions (InfinityFree + GitHub)
+
+1. **Push code to GitHub repo:** `bank_system`
+2. **Create account** on [https://infinityfree.net](https://infinityfree.net)
+3. **Create database** & upload files to `htdocs/`
+4. **Import SQL** in phpMyAdmin
+5. **Edit `db.php`** to match InfinityFree database credentials
+6. Access live site at:
+
+```
+http://your-subdomain.epizy.com
+```
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this project, improve it, and submit pull requests!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Md. Naimul Islam**
+🎓 BSc in CSE @ AIUB
+🔗 [LinkedIn](https://www.linkedin.com/in/naimul404) | [GitHub](https://github.com/mdnaimul404) | [Portfolio](https://sites.google.com/view/naimul404)
