@@ -53,5 +53,5 @@ A secure and user-friendly **Bank Management System** built with **PHP**, **MySQ
 - MySQL
 - Apache/Nginx or XAMPP/LAMP for local development
 
-### Setup Instructions
+
 
